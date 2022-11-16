@@ -1,0 +1,10 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: TempLevelPathSelection
+  Id: g=687059d3809aabe836c057e190f5b7b1
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- File: Types/Types.yaml
+- File: Instances/Instances.yaml

@@ -1,0 +1,27 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: TankType
+  Id: g=2538cbc3fbeeb63cfe7d13a24e04f757
+  Supertype: BaseObjectType
+  Children:
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: MotorType
+  Id: g=0b6308a5413783a7a9e5bdb009e04542
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Accelaration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
